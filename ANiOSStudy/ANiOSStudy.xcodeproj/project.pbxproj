@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EA783831E20F23600EEFEC7 /* ANDiscoveryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA783811E20F23600EEFEC7 /* ANDiscoveryVC.m */; };
+		3EA783841E20F23600EEFEC7 /* ANDiscoveryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EA783821E20F23600EEFEC7 /* ANDiscoveryVC.xib */; };
+		3EB4491C1E20E73400C7A0FC /* ANBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB4491B1E20E73400C7A0FC /* ANBaseViewController.m */; };
+		3EB449281E20E7EC00C7A0FC /* ANHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB449271E20E7EC00C7A0FC /* ANHomeVC.m */; };
 		3EC366FD1E20BA5100EFA6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC366FC1E20BA5100EFA6A4 /* main.m */; };
 		3EC367001E20BA5100EFA6A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC366FF1E20BA5100EFA6A4 /* AppDelegate.m */; };
-		3EC367031E20BA5100EFA6A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC367021E20BA5100EFA6A4 /* ViewController.m */; };
-		3EC367061E20BA5100EFA6A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC367041E20BA5100EFA6A4 /* Main.storyboard */; };
 		3EC367081E20BA5100EFA6A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC367071E20BA5100EFA6A4 /* Assets.xcassets */; };
-		3EC3670B1E20BA5100EFA6A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC367091E20BA5100EFA6A4 /* LaunchScreen.storyboard */; };
 		3EC367161E20BA5100EFA6A4 /* ANiOSStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC367151E20BA5100EFA6A4 /* ANiOSStudyTests.m */; };
 		3EC367211E20BA5100EFA6A4 /* ANiOSStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC367201E20BA5100EFA6A4 /* ANiOSStudyUITests.m */; };
+		611F987BFE50702379FEFC0A /* libPods-ANiOSStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5EFE9EC8333A2B98671945 /* libPods-ANiOSStudy.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +37,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A5EFE9EC8333A2B98671945 /* libPods-ANiOSStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ANiOSStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A4F6E8215F662217C94835 /* Pods-ANiOSStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANiOSStudy.release.xcconfig"; path = "Pods/Target Support Files/Pods-ANiOSStudy/Pods-ANiOSStudy.release.xcconfig"; sourceTree = "<group>"; };
+		3EA783801E20F23600EEFEC7 /* ANDiscoveryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANDiscoveryVC.h; sourceTree = "<group>"; };
+		3EA783811E20F23600EEFEC7 /* ANDiscoveryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANDiscoveryVC.m; sourceTree = "<group>"; };
+		3EA783821E20F23600EEFEC7 /* ANDiscoveryVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ANDiscoveryVC.xib; sourceTree = "<group>"; };
+		3EB4491A1E20E73400C7A0FC /* ANBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANBaseViewController.h; sourceTree = "<group>"; };
+		3EB4491B1E20E73400C7A0FC /* ANBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANBaseViewController.m; sourceTree = "<group>"; };
+		3EB449261E20E7EC00C7A0FC /* ANHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANHomeVC.h; sourceTree = "<group>"; };
+		3EB449271E20E7EC00C7A0FC /* ANHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANHomeVC.m; sourceTree = "<group>"; };
 		3EC366F81E20BA5100EFA6A4 /* ANiOSStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANiOSStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC366FC1E20BA5100EFA6A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3EC366FE1E20BA5100EFA6A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3EC366FF1E20BA5100EFA6A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3EC367011E20BA5100EFA6A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3EC367021E20BA5100EFA6A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3EC367051E20BA5100EFA6A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EC367071E20BA5100EFA6A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3EC3670A1E20BA5100EFA6A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EC3670C1E20BA5100EFA6A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EC367111E20BA5100EFA6A4 /* ANiOSStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANiOSStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC367151E20BA5100EFA6A4 /* ANiOSStudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANiOSStudyTests.m; sourceTree = "<group>"; };
@@ -51,6 +58,9 @@
 		3EC3671C1E20BA5100EFA6A4 /* ANiOSStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANiOSStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC367201E20BA5100EFA6A4 /* ANiOSStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANiOSStudyUITests.m; sourceTree = "<group>"; };
 		3EC367221E20BA5100EFA6A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EC367431E20E18100EFA6A4 /* Document */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Document; sourceTree = "<group>"; };
+		3EC367451E20E1E900EFA6A4 /* ANiOSStudy.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANiOSStudy.pch; sourceTree = "<group>"; };
+		64D5F4D2A01120D741C6C262 /* Pods-ANiOSStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANiOSStudy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ANiOSStudy/Pods-ANiOSStudy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				611F987BFE50702379FEFC0A /* libPods-ANiOSStudy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		183FF4B327BEB0B4F3DDFFA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64D5F4D2A01120D741C6C262 /* Pods-ANiOSStudy.debug.xcconfig */,
+				28A4F6E8215F662217C94835 /* Pods-ANiOSStudy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3EB4491D1E20E7B300C7A0FC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3EB449261E20E7EC00C7A0FC /* ANHomeVC.h */,
+				3EB449271E20E7EC00C7A0FC /* ANHomeVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3EB4491E1E20E7B300C7A0FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3EB4491F1E20E7B300C7A0FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3EB449201E20E7BA00C7A0FC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3EA783801E20F23600EEFEC7 /* ANDiscoveryVC.h */,
+				3EA783811E20F23600EEFEC7 /* ANDiscoveryVC.m */,
+				3EA783821E20F23600EEFEC7 /* ANDiscoveryVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3EB449211E20E7BA00C7A0FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3EB449221E20E7BA00C7A0FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3EB449231E20E7C000C7A0FC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3EB449241E20E7C000C7A0FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3EB449251E20E7C000C7A0FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		3EC366EF1E20BA5000EFA6A4 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +173,8 @@
 				3EC367141E20BA5100EFA6A4 /* ANiOSStudyTests */,
 				3EC3671F1E20BA5100EFA6A4 /* ANiOSStudyUITests */,
 				3EC366F91E20BA5100EFA6A4 /* Products */,
+				183FF4B327BEB0B4F3DDFFA2 /* Pods */,
+				3EF9CCC46C0DBFAED56C9B5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +193,14 @@
 			children = (
 				3EC366FE1E20BA5100EFA6A4 /* AppDelegate.h */,
 				3EC366FF1E20BA5100EFA6A4 /* AppDelegate.m */,
-				3EC367011E20BA5100EFA6A4 /* ViewController.h */,
-				3EC367021E20BA5100EFA6A4 /* ViewController.m */,
-				3EC367041E20BA5100EFA6A4 /* Main.storyboard */,
+				3EC367331E20E13000EFA6A4 /* Document */,
+				3EC367361E20E13000EFA6A4 /* MVC */,
+				3EC367341E20E13000EFA6A4 /* Global */,
+				3EC3672E1E20E13000EFA6A4 /* Common */,
+				3EC3673C1E20E13000EFA6A4 /* Network */,
+				3EC367351E20E13000EFA6A4 /* Library */,
+				3EC3673D1E20E13000EFA6A4 /* Resource */,
 				3EC367071E20BA5100EFA6A4 /* Assets.xcassets */,
-				3EC367091E20BA5100EFA6A4 /* LaunchScreen.storyboard */,
-				3EC3670C1E20BA5100EFA6A4 /* Info.plist */,
 				3EC366FB1E20BA5100EFA6A4 /* Supporting Files */,
 			);
 			path = ANiOSStudy;
@@ -118,6 +210,8 @@
 			isa = PBXGroup;
 			children = (
 				3EC366FC1E20BA5100EFA6A4 /* main.m */,
+				3EC3670C1E20BA5100EFA6A4 /* Info.plist */,
+				3EC367451E20E1E900EFA6A4 /* ANiOSStudy.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +234,187 @@
 			path = ANiOSStudyUITests;
 			sourceTree = "<group>";
 		};
+		3EC3672E1E20E13000EFA6A4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3EC3672F1E20E13000EFA6A4 /* Category */,
+				3EC367301E20E13000EFA6A4 /* Class */,
+				3EC367311E20E13000EFA6A4 /* Utility */,
+				3EC367321E20E13000EFA6A4 /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3EC3672F1E20E13000EFA6A4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3EC367301E20E13000EFA6A4 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		3EC367311E20E13000EFA6A4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		3EC367321E20E13000EFA6A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3EC367331E20E13000EFA6A4 /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				3EC367431E20E18100EFA6A4 /* Document */,
+			);
+			path = Document;
+			sourceTree = "<group>";
+		};
+		3EC367341E20E13000EFA6A4 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		3EC367351E20E13000EFA6A4 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		3EC367361E20E13000EFA6A4 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				3EC367371E20E13000EFA6A4 /* BaseModel */,
+				3EC367381E20E13000EFA6A4 /* BaseVC */,
+				3EC3673A1E20E13000EFA6A4 /* Home */,
+				3EC367391E20E13000EFA6A4 /* Discovery */,
+				3EC3673B1E20E13000EFA6A4 /* Me */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		3EC367371E20E13000EFA6A4 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		3EC367381E20E13000EFA6A4 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				3EB4491A1E20E73400C7A0FC /* ANBaseViewController.h */,
+				3EB4491B1E20E73400C7A0FC /* ANBaseViewController.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		3EC367391E20E13000EFA6A4 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				3EB449201E20E7BA00C7A0FC /* Controller */,
+				3EB449211E20E7BA00C7A0FC /* Model */,
+				3EB449221E20E7BA00C7A0FC /* View */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		3EC3673A1E20E13000EFA6A4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3EB4491D1E20E7B300C7A0FC /* Controller */,
+				3EB4491E1E20E7B300C7A0FC /* Model */,
+				3EB4491F1E20E7B300C7A0FC /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3EC3673B1E20E13000EFA6A4 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				3EB449231E20E7C000C7A0FC /* Controller */,
+				3EB449241E20E7C000C7A0FC /* Model */,
+				3EB449251E20E7C000C7A0FC /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		3EC3673C1E20E13000EFA6A4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3EC3673D1E20E13000EFA6A4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3EC3673E1E20E13000EFA6A4 /* Configuration */,
+				3EC3673F1E20E13000EFA6A4 /* Database */,
+				3EC367401E20E13000EFA6A4 /* Image */,
+				3EC367411E20E13000EFA6A4 /* Sound */,
+				3EC367421E20E13000EFA6A4 /* Vedio */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3EC3673E1E20E13000EFA6A4 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		3EC3673F1E20E13000EFA6A4 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		3EC367401E20E13000EFA6A4 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		3EC367411E20E13000EFA6A4 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		3EC367421E20E13000EFA6A4 /* Vedio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vedio;
+			sourceTree = "<group>";
+		};
+		3EF9CCC46C0DBFAED56C9B5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A5EFE9EC8333A2B98671945 /* libPods-ANiOSStudy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +422,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EC367251E20BA5100EFA6A4 /* Build configuration list for PBXNativeTarget "ANiOSStudy" */;
 			buildPhases = (
+				883DC805D76EDE70D8E8354D /* [CP] Check Pods Manifest.lock */,
 				3EC366F41E20BA5000EFA6A4 /* Sources */,
 				3EC366F51E20BA5000EFA6A4 /* Frameworks */,
 				3EC366F61E20BA5000EFA6A4 /* Resources */,
+				816A8D997B4A1CCC986B56ED /* [CP] Embed Pods Frameworks */,
+				5E4D72A4CAFED546BC0364A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,9 +525,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EC3670B1E20BA5100EFA6A4 /* LaunchScreen.storyboard in Resources */,
+				3EA783841E20F23600EEFEC7 /* ANDiscoveryVC.xib in Resources */,
 				3EC367081E20BA5100EFA6A4 /* Assets.xcassets in Resources */,
-				3EC367061E20BA5100EFA6A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,14 +546,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E4D72A4CAFED546BC0364A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ANiOSStudy/Pods-ANiOSStudy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		816A8D997B4A1CCC986B56ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ANiOSStudy/Pods-ANiOSStudy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		883DC805D76EDE70D8E8354D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3EC366F41E20BA5000EFA6A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EC367031E20BA5100EFA6A4 /* ViewController.m in Sources */,
 				3EC367001E20BA5100EFA6A4 /* AppDelegate.m in Sources */,
+				3EA783831E20F23600EEFEC7 /* ANDiscoveryVC.m in Sources */,
 				3EC366FD1E20BA5100EFA6A4 /* main.m in Sources */,
+				3EB449281E20E7EC00C7A0FC /* ANHomeVC.m in Sources */,
+				3EB4491C1E20E73400C7A0FC /* ANBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,25 +637,6 @@
 			targetProxy = 3EC3671D1E20BA5100EFA6A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3EC367041E20BA5100EFA6A4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3EC367051E20BA5100EFA6A4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3EC367091E20BA5100EFA6A4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3EC3670A1E20BA5100EFA6A4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3EC367231E20BA5100EFA6A4 /* Debug */ = {
@@ -421,10 +729,13 @@
 		};
 		3EC367261E20BA5100EFA6A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64D5F4D2A01120D741C6C262 /* Pods-ANiOSStudy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = PDLH6HJG87;
+				GCC_PREFIX_HEADER = ANiOSStudy/ANiOSStudy.pch;
 				INFOPLIST_FILE = ANiOSStudy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -435,10 +746,13 @@
 		};
 		3EC367271E20BA5100EFA6A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28A4F6E8215F662217C94835 /* Pods-ANiOSStudy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = PDLH6HJG87;
+				GCC_PREFIX_HEADER = ANiOSStudy/ANiOSStudy.pch;
 				INFOPLIST_FILE = ANiOSStudy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -512,6 +826,7 @@
 				3EC367271E20BA5100EFA6A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EC367281E20BA5100EFA6A4 /* Build configuration list for PBXNativeTarget "ANiOSStudyTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +835,7 @@
 				3EC3672A1E20BA5100EFA6A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EC3672B1E20BA5100EFA6A4 /* Build configuration list for PBXNativeTarget "ANiOSStudyUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +844,7 @@
 				3EC3672D1E20BA5100EFA6A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

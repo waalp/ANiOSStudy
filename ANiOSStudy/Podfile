@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, ‘7.0’
+
+target 'ANiOSStudy' do
+
+    pod 'YYCategories'  # 工具Category
+    pod 'Masonry'  # 约束布局
+    pod 'AFNetworking'    # 网络
+    pod 'IQKeyboardManager'    # 键盘管理器
+    pod 'SDWebImage'  # 网络图片下载
+    pod 'MJExtension'  # JSON转Model
+    pod 'MJRefresh'  # 上拉下拉刷新框架
+    pod 'MBProgressHUD'  # Toast
+    pod 'SVProgressHUD'  # Toast
+
+end

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ANHomeVC.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    ANHomeVC *vcHome = [[ANHomeVC alloc] init];
+    UINavigationController *nvgtVCHome = [[UINavigationController alloc] initWithRootViewController:vcHome];
+    
+    UITabBarController *tabBarVC = [[UITabBarController alloc] init];
+    tabBarVC.viewControllers = @[nvgtVCHome];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = tabBarVC;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
