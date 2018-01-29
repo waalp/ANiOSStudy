@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  ANiOSStudy
+//  ANiOSStudyhttp://photo.blog.sina.com.cn/showpic.html#blogid=5fede45a0102v41k&url=http://album.sina.com.cn/pic/001KUZe2gy6NgT69Rbk4a
 //
 //  Created by Anson on 2017/1/7.
 //  Copyright © 2017年 An. All rights reserved.
@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 #import "ANHomeVC.h"
+#import "ANFirstPage.h"
+#import "ViewController.h"
+#import "secondPage.h"
 
 @interface AppDelegate ()
 
@@ -18,8 +21,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    ANHomeVC *vcHome = [[ANHomeVC alloc] init];
+//    ANHomeVC *vcHome = [[ANHomeVC alloc] init];
+//    UINavigationController *nvgtVCHome = [[UINavigationController alloc] initWithRootViewController:vcHome];
+    
+    ANFirstPage *vcHome = [[ANFirstPage alloc] init];
     UINavigationController *nvgtVCHome = [[UINavigationController alloc] initWithRootViewController:vcHome];
+
     
     UITabBarController *tabBarVC = [[UITabBarController alloc] init];
     tabBarVC.viewControllers = @[nvgtVCHome];
@@ -28,7 +35,7 @@
     self.window.rootViewController = tabBarVC;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    
+//    NSLog(@"123");
     return YES;
 }
 

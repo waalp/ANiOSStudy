@@ -1,40 +1,47 @@
 //
-//  ANHomeVC.m
+//  ANFirstPage.m
 //  ANiOSStudy
 //
-//  Created by Anson on 2017/1/7.
+//  Created by Anson on 2017/1/10.
 //  Copyright © 2017年 An. All rights reserved.
 //
 
+#import "ANFirstPage.h"
+#import <UIKit/UIKit.h>
 #import "ANHomeVC.h"
-#import "ViewController.h"
-
-@interface ANHomeVC () <UITableViewDataSource, UITableViewDelegate>
+@interface ANFirstPage () <UITableViewDataSource, UITableViewDelegate>
 
 /*
  UI
  */
 @property (nonatomic, strong) UISearchBar *searchBar;  ///< Search
 @property (nonatomic, strong) UITableView *tableView;  ///< TableView
-
+//@property (nonatomic, strong) UIButton *Button;
 
 /*
  Data
  */
 @property (nonatomic, strong) NSArray *dataSource;  ///< Data Source
+@property (nonatomic, strong) NSArray *ImagedataSource;
 
 @end
 
-@implementation ANHomeVC
-
+@implementation ANFirstPage
+//@end
+//@interface ViewController:UIViewController<UITableViewDataSource,UITableViewDelegate>{
+//    UITableView *tableview;
+//    NSArray *array;
+//    NSArray *arrayImage;
+//    NSArray *arrayImage1;
+//}
 #pragma mark - View Cycle
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    self.title = @"首页";
-//    self.tabBarItem.title = @"首页";
+//    self.title = @"首页";
+    //    self.tabBarItem.title = @"首页";
     
     [self setData];
     [self setUI];
@@ -66,7 +73,11 @@
     }
     
     cell.textLabel.text = _dataSource[indexPath.row];
-    
+//    cell.textLabel.frame = CFNotificationCenterGetTypeID();
+//    NSString * titleString = [arrayobjectAtIndex:[indexPath row]];
+//    UIAlertView*alert = [[UIAlertView alloc]initWithTitle:@"提示" message:@"1234" delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
+//    [alert show];
+    NSLog(@"%@",cell.textLabel.text);
     return cell;
 }
 
@@ -74,13 +85,15 @@
 
 - (void)setData
 {
-    _dataSource = @[@"first", @"second", @"third",@"fourth",@"fifth",@"sixth",@"seventh",@"eighth",@"ninth",@"tenth",@"eleventh",@"twelfth",@"thirteenth",@"fourteenth",@"fifteenth",@"sixteenth",@"seventeenth"];
+    _dataSource = @[@"seventeenth", @"second", @"third",@"fourth",@"fifth",@"sixth",@"seventh",@"eighth",@"ninth",@"tenth",@"eleventh",@"twelfth",@"thirteenth",@"fourteenth",@"fifteenth",@"sixteenth",@"First"];
 }
+
 
 - (void)setUI
 {
     [self.view addSubview:self.searchBar];
     [self.view addSubview:self.tableView];
+//    [self.view addSubview:self.Button];
 }
 
 - (void)setConstraints
@@ -97,6 +110,12 @@
         make.top.mas_equalTo(self.searchBar.mas_bottom);
         make.bottom.mas_equalTo(0);
     }];
+//    [self.Button mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.mas_equalTo(0);
+//        make.right.mas_equalTo(0);
+//        make.top.mas_equalTo(self.searchBar.mas_bottom);
+//        make.bottom.mas_equalTo(0);
+//    }];
 }
 
 - (void)loadData
@@ -106,25 +125,11 @@
 
 #pragma mark - Getter and Setter
 
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    switch (indexPath.row) {
-        case 0:
-        {
-            ViewController *commentVC = [[ViewController alloc]init];
-            [self.navigationController pushViewController:commentVC animated:YES];
-        }
-            break;
-            
-        default:
-            break;
-    }
-}
 // 懒加载
 - (UISearchBar *)searchBar {
     if (!_searchBar) {
         _searchBar = [[UISearchBar alloc] init];
-        _searchBar.placeholder = @"搜索";
+        _searchBar.placeholder = @"搜索";//无内容时显示的字符
     }
     return _searchBar;
 }
@@ -141,5 +146,27 @@
     }
     return _tableView;
 }
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(nonnull NSIndexPath *)indexPath
+{
+    switch (indexPath.row) {
+        case 0:
+        {
+            
+        ANHomeVC *commentVC = [[ANHomeVC alloc]init];
+            [self.navigationController pushViewController:commentVC animated:YES];
+        }
+            break;
+            
+        default:
+            break;
+    }
+}
+//- (UIButton *)Button {
+//    if (!_Button){
+//        _Button = [[UIButton alloc]init];
+//    }
+//    return _Button;
+//}
 
 @end
